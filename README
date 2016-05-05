@@ -4,4 +4,8 @@ The game scripts (i.e. not the ones that start with "Visualizing") take some ini
 
 If you want migration sites, those are the scripts with population structure.
 
+Be careful that you don't have more mutation, recombination, etc. sites than there are total sites in the set. There is no error checking to catch this.
+
+The visualization scripts require the "diagram" package in R. Assuming nothing goes wrong with generating the game in the initial scripts, then the visualization scripts should run without any trouble. If you want more or less time between the plot for each round, then change the number in the two "Sys.sleep(2)" commands. This is the number of seconds between each frame.
+
 That's pretty much it. If you have any questions, feel free to e-mail me.
