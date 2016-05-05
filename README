@@ -1,1 +1,7 @@
 These R scripts create and visualize data from playing the Coalescent Simulation Game created by Chris Spencer for the Stat Gen retreat on 3 April 2015.
+
+The game scripts (i.e. not the ones that start with "Visualizing") take some initial parameter values and carry on from there. The scripts are set up to assign sites to generate mutations, recombinations, etc. randomly, but if you want to guarantee contiguous recombination or mutation sites, you'll need to assign them by hand, using the appropriate variables.
+
+If you want migration sites, those are the scripts with population structure.
+
+That's pretty much it. If you have any questions, feel free to e-mail me.
